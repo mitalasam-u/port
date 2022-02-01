@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>empya.co</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="main">
+    <div class="nav">
+      <div class="log">
+        <img class="avator" src="img_avatar2.png" alt="">
+      </div>
+      <div class="link">
+        <span class="bars">
+          <span class="fas fa-bars" id="bars">
+          </span>
+        </span>
+        <span id="navbar"> <a class="active" href="home.html">HOME</a>
+          <a href="product.html" target="_blank" rel="noopener noreferrer">PRODUCTS</a>
+          <a href="about.html" target="_blank" rel="noopener noreferrer">ABOUT</a>
+          <a href="faq.html" target="_blank" rel="noopener noreferrer">FAQS</a>
+          <a href="contact.html" target="_blank" rel="noopener noreferrer">CONTACTS</a>
+        </span>
+        <span class="circle" onclick="search()"><i class="fas fa-search"></i></span>
+      </div>
+    </div>
+    <div id="searchbox" style="display: none;"> <input type="text" placeholder="Search For a Loan">
+      <a type="button" onclick="document.getElementById('searchbox').style.display='none'" class="close">&times;</a>
+    </div>
+    <div class="box1">
+      <div class="section">
+        <div class="flex">
+          <section>
+            <h1>YOUR PERSONAL FINANCIAL PARTNER</h1>
+            <p>Our goal is to bridge the gap between your ambition/need and <br>
+              access to relatively affordable credit in just under 12 hours.</p><br><br>
+            <a href="" class="btn1">Apply for a loan</a>
+          </section><br><br>
+          <section>
+            <div class="send">
+              <h1>SEE WHAT WE CAN OFFER YOU</h1>
+              <section class="name">
+                <form id="frm1" action="#about" method="get">
+                  <p>
+                  </p>
+                  <input type="text" class="input" placeholder=" Your Name
+       " required><br><br>
+                  <p>
+                  </p>
+                  <input type="text" class="input" placeholder="Your Phone number" required><br><br>
+                  </p>
+                  <input type="email" class="input" placeholder="abc@gmail.com" required><br><br>
+                  <section class="textarea">
+                    <textarea name="" id="" cols="20" rows="10" class="input1" placeholder="Feedback"></textarea>
+                  </section><br><br>
+                  <a class="btn1" href="">Submit</a>
+              </section>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="box2">
+      <section>
+        <p>
+          <img src="personal-icon.png" alt="">
+        </p>
+        <font>
+          <h1>70.00%</h1>
+          <p>PAYDAY LOANS</p>
+        </font>
+
+      </section>
+      <section>
+        <p>
+          <img src="credit-icon.png" alt="">
+        </p>
+        <font>
+          <h1>13.30%</h1>
+          <p>BUSINESS LOANS</p>
+        </font>
+      </section>
+      <section>
+        <p>
+          <img src="car-icon.png" alt="">
+        </p>
+        <font>
+          <h1>10.00%</h1>
+          <p>ASSET FINANCE LOANS</p>
+        </font>
+      </section>
+      <section>
+        <p>
+          <img src="market.png" alt="">
+        </p>
+        <font>
+          <h1>6.70%</h1>
+          <p>TUKOLE (GIG) LOANS</p>
+        </font>
+      </section>
+    </div>
+    <div class="box3">
+      <h1>Find Loan Products We Offer</h1>
+      <div class="box">
+        <section>
+          <div class="icon1">
+            <i class="fas fa-money-bill-wave-alt"></i>
+          </div>
+          <h1>Payday Loans</h1>
+          <p>We offer unsecured personal loans to employees of private sector companies.
+            Loan Amount (Ugx): 300k – 3M
+            Term: 1 – 3 Months</p><br><br>
+          <a class="btn1" href="http://" target="_blank" rel="noopener noreferrer">Explore</a>
+        </section>
+        <section>
+          <div class="icon1">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h1>Business Loans</h1>
+          <p>We offer unsecured personal loans to employees of private sector companies.
+            Loan Amount (Ugx): 300k – 3M
+            Term: 1 – 3 Months
+
+          </p><br><br>
+          <a class="btn1" href="http://" target="_blank" rel="noopener noreferrer">Explore</a>
+        </section>
+        <section>
+          <div class="icon1">
+            <i class="fas fa-car"></i>
+          </div>
+          <h1>Asset Loans</h1>
+          <p>We offer unsecured personal loans to employees of private sector companies.
+            Loan Amount (Ugx): 300k – 3M
+            Term: 1 – 3 Months</p><br><br>
+          <a class="btn1" href="http://" target="_blank" rel="noopener noreferrer">Explore</a>
+        </section>
+        <section>
+          <div class="icon1">
+            <i class="fas fa-people-carry"></i>
+          </div>
+          <h1>Tukole Loans</h1>
+          <p>We offer unsecured personal loans to employees of private sector companies.
+            Loan Amount (Ugx): 70k – 1M
+            Term: 1 – 3 Months
+
+          </p><br><br>
+          <a class="btn1" href="http://" target="_blank" rel="noopener noreferrer">Explore</a>
+        </section>
+      </div>
+    </div>
+    <div class="box4">
+      <div class="sec">
+        <h1><span>Fast & Easy</span>Application Process</h1>
+        <div class="box">
+          <section>
+            <h1>01–</h1>
+            <h3>Choose Loan Amount</h3>
+            <p>I’m a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+              click
+              me to add your own content and make changes to the font</p>
+          </section>
+          <section>
+            <h1>02–</h1>
+            <h3>Approved Your Loan</h3>
+            <p>
+            <p>I’m a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+              click
+              me to add your own content and make changes to the font</p>
+            </p>
+          </section>
+          <section>
+            <h1>03–</h1>
+            <h3>Get Your Cash</h3>
+            <p>I’m a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+              click
+              me to add your own content and make changes to the font</p>
+          </section>
+
+        </div>
+        <a class="btn1" href="">VIEW OUR LOANS</a>
+      </div>
+    </div>
+    <div class="box5">
+      <section>
+        <h1> 99%
+        </h1>
+        <h2>LOANS APPPROVAL
+        </h2>
+      </section>
+      <section>
+        <h1>SHs200+</h1>
+        <h2> DAILY PAYMENTS
+        </h2>
+      </section>
+      <section>
+        <h1> 4</h1>
+        <h2>PAYMENT POINTS</h2>
+      </section>
+      <section>
+        <h1> 100
+        </h1>
+        <h2>HAPPY CUSTOMER</h2>
+      </section>
+    </div>
+    <div class="box6">
+      <h1>Why People Choose Us</h1>
+      <div class="box">
+        <section>
+          <p>
+          <div class="icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h1>Dedicated Specialists</h1>
+          <p>we have an experienced, professional, and friendly team that prides itself on helping customers on a
+            one-to-one
+            basis.</p>
+        </section>
+        <section>
+          <p>
+          <div class="icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h1>Success Stories Rating</h1>
+          <p>With many loan brokers on the market, it can be sometimes difficult for customers to know which loan is
+            most
+            suitable one for them. At cash for growth, We work with you to find which of our products suits you.</p>
+        </section>
+        <section>
+          <p>
+          <div class="icon">
+            <i class="fas fa-calculator"></i>
+          </div>
+          <h1>No front Appraisal Fees!</h1>
+          <p>There is no obligation and no fees if you decide not to go ahead, so you can be confident you will get a
+            competitive rate</p>
+        </section>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="section">
+        <section>
+          <img class="log" src="logo.png" alt=""><br><br>
+          Serving you well comes down to keeping our promises. We’re not perfect and may stumble from time to time, but
+          you
+          can be certain that we are working hard to make good on what we have promised to you. It’s about fulfilling
+          our
+          commitment to you and our communities.
+        </section>
+        <section>
+          <h2>OUR LOAN APPROVAL TIME</h2>
+          <p>Make sure you provide necessary requirements in time
+          </p>
+          <img src="download.png" alt="">
+        </section>
+        <section>
+          <h2>CONTACTS</h2>
+          <p>
+            <i class="fas fa-phone"></i>0708454152
+          </p>
+          <div class="social">
+            <p>Follow us</p>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-twitter"></i></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i></a>
+          </div>
+        </section>
+        <section>
+          <h2>WORKING TIME</h2>
+          <h4>MONDAY – THURSDAY:</h4>
+          <p>9:00 am-10:00 pm</p>
+          <h4>FRIDAY – SATURDAY:</h4>
+          <p>9:00 am-Midnight</p>
+          <h4>SUNDAY:</h4>
+          <p>11:00 am-10:00 pm </p>
+        </section>
+      </div>
+    </div>
+    <P class="foot">Copyright © 2022 Empya.co LTD, All Rights Reserved.
+    </P>
+  </div>
+
+  <script>
+    // Store some global theme options used in JS
+  //   if (window.$us === undefined) {
+  //     window.$us = {};
+  //   }
+  //   $us.canvasOptions = ($us.canvasOptions || {});
+  //   $us.canvasOptions.disableEffectsWidth = 900;
+  //   $us.canvasOptions.columnsStackingWidth = 768;
+  //   $us.canvasOptions.backToTopDisplay = 100;
+  //   $us.canvasOptions.scrollDuration = 1000;
+
+  //   $us.langOptions = ($us.langOptions || {});
+  //   $us.langOptions.magnificPopup = ($us.langOptions.magnificPopup || {});
+  //   $us.langOptions.magnificPopup.tPrev = 'Previous (Left arrow key)';
+  //   $us.langOptions.magnificPopup.tNext = 'Next (Right arrow key)';
+  //   $us.langOptions.magnificPopup.tCounter = '%curr% of %total%';
+
+  //   $us.navOptions = ($us.navOptions || {});
+  //   $us.navOptions.mobileWidth = 900;
+  //   $us.navOptions.togglable = true;
+  //   $us.ajaxLoadJs = true;
+  //   $us.templateDirectoryUri = 'https://cashforgrowth.co/wp-content/themes/loanoffer';
+  // </script>
+  //
+  <script>
+  //   if (window.$us === undefined) window.$us = {}; $us.headerSettings = { "default": { "options": { "breakpoint": "900px", "orientation": "hor", "sticky": true, "sticky_auto_hide": false, "scroll_breakpoint": "100px", "transparent": true, "width": "300px", "elm_align": "center", "shadow": "none", "top_show": true, "top_height": "40px", "top_sticky_height": "0px", "top_fullwidth": false, "top_centering": false, "top_bg_color": "_header_top_bg", "top_text_color": "_header_top_text", "top_text_hover_color": "_header_top_text_hover", "top_transparent_bg_color": "_header_top_transparent_bg", "top_transparent_text_color": "_header_top_transparent_text", "top_transparent_text_hover_color": "_header_top_transparent_text_hover", "middle_height": "100px", "middle_sticky_height": "60px", "middle_fullwidth": false, "middle_centering": false, "elm_valign": "top", "bg_img": "", "bg_img_wrapper_start": "", "bg_img_size": "cover", "bg_img_repeat": "repeat", "bg_img_position": "top left", "bg_img_attachment": true, "bg_img_wrapper_end": "", "middle_bg_color": "_header_middle_bg", "middle_text_color": "_header_middle_text", "middle_text_hover_color": "_header_middle_text_hover", "middle_transparent_bg_color": "_header_transparent_bg", "middle_transparent_text_color": "_header_transparent_text", "middle_transparent_text_hover_color": "_header_transparent_text_hover", "bottom_show": false, "bottom_height": "50px", "bottom_sticky_height": "50px", "bottom_fullwidth": false, "bottom_centering": false, "bottom_bg_color": "_header_middle_bg", "bottom_text_color": "_header_middle_text", "bottom_text_hover_color": "_header_middle_text_hover", "bottom_transparent_bg_color": "_header_transparent_bg", "bottom_transparent_text_color": "_header_transparent_text", "bottom_transparent_text_hover_color": "_header_transparent_text_hover" }, "layout": { "top_left": ["text:2", "text:1", "text:3"], "top_center": [], "top_right": ["text:4", "socials:1"], "middle_left": ["image:1"], "middle_center": [], "middle_right": ["menu:1", "search:1", "cart:1"], "bottom_left": [], "bottom_center": [], "bottom_right": [], "hidden": [] } }, "tablets": { "options": { "breakpoint": "900px", "orientation": "hor", "sticky": true, "sticky_auto_hide": false, "scroll_breakpoint": "100px", "transparent": true, "width": "300px", "elm_align": "center", "shadow": "thin", "top_show": true, "top_height": "40px", "top_sticky_height": "0px", "top_fullwidth": false, "top_centering": false, "top_bg_color": "_header_top_bg", "top_text_color": "_header_top_text", "top_text_hover_color": "_header_top_text_hover", "top_transparent_bg_color": "_header_top_transparent_bg", "top_transparent_text_color": "_header_top_transparent_text", "top_transparent_text_hover_color": "_header_top_transparent_text_hover", "middle_height": "80px", "middle_sticky_height": "60px", "middle_fullwidth": false, "middle_centering": false, "elm_valign": "top", "bg_img": "", "bg_img_wrapper_start": "", "bg_img_size": "cover", "bg_img_repeat": "repeat", "bg_img_position": "top left", "bg_img_attachment": true, "bg_img_wrapper_end": "", "middle_bg_color": "_header_middle_bg", "middle_text_color": "_header_middle_text", "middle_text_hover_color": "_header_middle_text_hover", "middle_transparent_bg_color": "_header_transparent_bg", "middle_transparent_text_color": "_header_transparent_text", "middle_transparent_text_hover_color": "_header_transparent_text_hover", "bottom_show": false, "bottom_height": "50px", "bottom_sticky_height": "50px", "bottom_fullwidth": false, "bottom_centering": false, "bottom_bg_color": "_header_middle_bg", "bottom_text_color": "_header_middle_text", "bottom_text_hover_color": "_header_middle_text_hover", "bottom_transparent_bg_color": "_header_transparent_bg", "bottom_transparent_text_color": "_header_transparent_text", "bottom_transparent_text_hover_color": "_header_transparent_text_hover" }, "layout": { "top_left": ["text:2", "text:1", "text:3"], "top_center": [], "top_right": ["socials:1", "text:4"], "middle_left": ["image:1"], "middle_center": [], "middle_right": ["menu:1", "search:1", "cart:1"], "bottom_left": [], "bottom_center": [], "bottom_right": [], "hidden": [] } }, "mobiles": { "options": { "breakpoint": "600px", "orientation": "hor", "sticky": true, "sticky_auto_hide": true, "scroll_breakpoint": "50px", "transparent": true, "width": "300px", "elm_align": "center", "shadow": "thin", "top_show": false, "top_height": "40px", "top_sticky_height": "0px", "top_fullwidth": false, "top_centering": false, "top_bg_color": "_header_top_bg", "top_text_color": "_header_top_text", "top_text_hover_color": "_header_top_text_hover", "top_transparent_bg_color": "_header_top_transparent_bg", "top_transparent_text_color": "_header_top_transparent_text", "top_transparent_text_hover_color": "_header_top_transparent_text_hover", "middle_height": "50px", "middle_sticky_height": "50px", "middle_fullwidth": false, "middle_centering": false, "elm_valign": "top", "bg_img": "", "bg_img_wrapper_start": "", "bg_img_size": "cover", "bg_img_repeat": "repeat", "bg_img_position": "top left", "bg_img_attachment": true, "bg_img_wrapper_end": "", "middle_bg_color": "_header_middle_bg", "middle_text_color": "_header_middle_text", "middle_text_hover_color": "_header_middle_text_hover", "middle_transparent_bg_color": "_header_transparent_bg", "middle_transparent_text_color": "_header_transparent_text", "middle_transparent_text_hover_color": "_header_transparent_text_hover", "bottom_show": false, "bottom_height": "50px", "bottom_sticky_height": "50px", "bottom_fullwidth": false, "bottom_centering": false, "bottom_bg_color": "_header_middle_bg", "bottom_text_color": "_header_middle_text", "bottom_text_hover_color": "_header_middle_text_hover", "bottom_transparent_bg_color": "_header_transparent_bg", "bottom_transparent_text_color": "_header_transparent_text", "bottom_transparent_text_hover_color": "_header_transparent_text_hover" }, "layout": { "top_left": ["text:2", "text:1", "text:3"], "top_center": [], "top_right": ["socials:1", "text:4"], "middle_left": ["image:1"], "middle_center": [], "middle_right": ["menu:1", "search:1", "cart:1"], "bottom_left": [], "bottom_center": [], "bottom_right": [], "hidden": [] } }, "header_id": "42" };
+  // </script>
+  <script src="index_2.js"></script>
+</body>
+
+</html>
